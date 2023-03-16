@@ -27,10 +27,8 @@ A predictive model that can accurately classify individuals into groups with and
 
 
 
-- [x] SVM --> 81.97 %
-- [x] Logistic Regression --> 85.25 %
-- [x] RF --> 91.8 %
-- [x] XGBoost --> 78.69 %
+
+- [x] Sequential Neural Network --> 94.7 %
 
 ![image](https://user-images.githubusercontent.com/72274851/220701473-50f303b3-449b-419e-8567-ea84a7cd7dde.png)
 
