@@ -8,8 +8,8 @@
 Breast cancer is a major health concern worldwide, and early detection is crucial for successful treatment. Machine learning can play a significant role in breast cancer prediction by analyzing patient data and identifying patterns that can help in the diagnosis. By leveraging machine learning algorithms, we can build predictive models that can analyze mammogram images and patient data to predict the likelihood of developing breast cancer. This can help doctors and medical professionals to diagnose the disease at an early stage and provide effective treatment. Our Github repository contains code for implementing such models and contributing to breast cancer prediction research.
 
 # What It Does ![image](https://user-images.githubusercontent.com/72274851/218503394-b52dfcc9-0620-4f44-94f5-46a09a5cc970.png)
-For individuals with CVD, ML can also be used to create individualized treatment programs. The most efficient treatments for specific patients can be determined by analyzing patient data, including genetic data and medical background. This strategy can improve patient outcomes and lower the chance of unfavorable incidents.
-A predictive model that can accurately classify individuals into groups with and without CVD will be created by the machine learning program by looking at patterns and connections in the data. Based on a person's specific risk factors, the model can then be used to predict their likelihood of getting CVD in the future.
+The breast cancer classification project using neural network and deep learning is aimed at creating an accurate and efficient system for identifying and diagnosing breast cancer. The project utilizes deep learning algorithms to train a neural network on large datasets of mammograms and biopsy images, allowing it to recognize patterns and features that are indicative of cancerous cells. This system has the potential to greatly improve the accuracy and speed of breast cancer diagnosis, as well as reduce the workload of medical professionals. The project also has the potential to improve patient outcomes by enabling earlier detection of breast cancer and more targeted treatment plans. Overall, the breast cancer classification project is a promising application of cutting-edge technology in the field of medical imaging and diagnosis.
+
 
 # How I built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
 
@@ -17,13 +17,8 @@ A predictive model that can accurately classify individuals into groups with and
 
 ### ✅Understand the data
 
-### ✅Create a Correlation and visualize it
 
-![image](https://user-images.githubusercontent.com/72274851/220701034-024528a5-6e23-4dd5-a931-362f7ff87eaa.png)
-
-### ✅Test Different Models and find the best model out of it
-
-### ✅Train the model using Intel oneDAL to get better results and faster computation(Intel oneAPI Data Analytics Library (oneDAL))
+### ✅Train the model using Intel oneDAL and create a model using oneDNN to get better results and faster computation(Intel oneAPI Data Analytics Library (oneDAL, oneDNN))
 ![intel](https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png)
 
 
@@ -36,7 +31,7 @@ A predictive model that can accurately classify individuals into groups with and
 ### ✅Save the model
 
 
-# What I learned !(![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
+# What I learned !![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
 ![image](https://user-images.githubusercontent.com/90462533/225627856-d3441caf-177e-424c-9e5e-a97d63b669a6.png)
 ![image](https://user-images.githubusercontent.com/90462533/225627905-368bbdbe-8ab2-40e0-8744-503c0600d4b0.png)
 
