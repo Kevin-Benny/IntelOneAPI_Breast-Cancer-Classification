@@ -1,5 +1,7 @@
- ![image](https://img.freepik.com/free-vector/bound_53876-25486.jpg?w=740&t=st=1678968640~exp=1678969240~hmac=31282921c4ff77b20be779fddccf166df7086783591a23cbaace9f792cce4db9)
 
+<h1>Breast Cancer Classification using Simple Neural Network</h1>
+
+![image](https://user-images.githubusercontent.com/90462533/225628527-87b94381-a2fc-44ab-91bb-bf8f8f81b5fe.png)
 
 # INSPIRATION ![image](https://user-images.githubusercontent.com/72274851/218500470-ec078b99-0a50-4b06-a2df-c09e47ecc187.png)
 
@@ -30,15 +32,14 @@ A predictive model that can accurately classify individuals into groups with and
 
 - [x] Sequential Neural Network --> 94.7 %
 
-![image](https://user-images.githubusercontent.com/72274851/220701473-50f303b3-449b-419e-8567-ea84a7cd7dde.png)
 
 ### ✅Save the model
 
 
-# What I learned ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
+# What I learned !(![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
+![image](https://user-images.githubusercontent.com/90462533/225627856-d3441caf-177e-424c-9e5e-a97d63b669a6.png)
+![image](https://user-images.githubusercontent.com/90462533/225627905-368bbdbe-8ab2-40e0-8744-503c0600d4b0.png)
 
-
-![image](https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png)
 
 ✅Building application using intel oneDAL:The Intel oneAPI Data Analytics Library (oneDAL) contributes to the acceleration of big data analysis by providing highly optimised algorithmic building blocks for all phases of data analytics (preprocessing, transformation, analysis, modelling, validation, and decision making) in batch, online, and distributed processing modes of computation.The library optimizes data ingestion along with algorithmic computation to increase throughput and scalability.
 
