@@ -1,4 +1,3 @@
-
 <h1>Breast Cancer Classification using Simple Neural Network</h1>
 
 ![image](https://user-images.githubusercontent.com/90462533/225628527-87b94381-a2fc-44ab-91bb-bf8f8f81b5fe.png)
@@ -51,4 +50,4 @@ The breast cancer classification project using neural network and deep learning 
 ✅Collaboration: Building a project like this likely required collaboration with a team of experts in various fields, such as medical science, machine learning, and data analysis, and I likely learned the importance of working together to achieve common goals.
 
 These are just a few examples of the knowledge and skills that i likely gained while building this project. 
-Overall, building a crop recommendation application is a challenging and rewarding experience that requires a combination of technical expertise and agricultural knowledge.
+Overall, building a cancer classification application is a challenging and rewarding experience that requires technical expertise.

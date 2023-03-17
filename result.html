@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tumor Classification Result</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      h1 {
+        color: #333333;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .result {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .result-malignant {
+        color: red;
+      }
+      .result-benign {
+        color: green;
+      }
+      .try-again {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      .try-again button {
+        background-color: #333333;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .try-again button:hover {
+        background-color: #555555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tumor Classification Result</h1>
+    <div class="result">
+      {% if result == 0 %}
+        <p class="result-malignant">THE TUMOR IS MALIGNANT.</p>
+      {% endif %}
+      {% if result == 1 %}
+        <p class="result-benign">THE TUMOR IS BENIGN.</p>
+      {% endif %}
+      
+    </div>
+    <div class="try-again">
+      <button id = "bt1" onclick="window.location.href='/home'">Try again</button><br>
+      <button id = "bt2" onclick="window.location.href='/'">Home</button>
+    </div>
+  </body>
+</html>

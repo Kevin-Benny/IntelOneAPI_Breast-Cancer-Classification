@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Breast Cancer Classification</title>
+  <style>
+    form{
+        display: block; /* This ensures the button takes up the full width available */
+    margin: 0 auto; 
+    }
+#btn{
+    display: block; /* This ensures the button takes up the full width available */
+    margin: 0 auto; /* This centers the button horizontally */
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+#heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+body {
+      background-color: #fff;
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header styling */
+    header {
+      background-color: #f9cccc;
+      padding: 30px;
+      text-align: center;
+    }
+
+    #heading {
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+
+    /* Navbar styling */
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 50px;
+      background-color: #f9cccc;
+      padding-right: 20px;
+      margin-bottom: 20px;
+    }
+
+    nav button {
+      background-color: #fff;
+      color: #333;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    nav button:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+    /* Main content styling */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+
+    section {
+      background-color: #fff;
+      padding: 50px 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      margin-top: 0;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #f9cccc;
+    }
+
+    p {
+      margin: 1rem 0;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .try-again button:hover {
+        background-color: #555555;
+      }
+  </style>
+</head>
+
+<body>
+  <header>
+      <p id ="heading"><u>Breast Cancer Classification using Neural Network</u></p><br>
+      <nav>
+        <form method = "get" action="{{ url_for('show_home') }}"><button type="submit" value="Check Classification" id ="btn">CHECK CLASSIFICATION</button></form>
+      </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <section>
+        <h2><i>What is Breast Cancer?</i></h2>
+        <p>Breast cancer is a type of cancer that starts in the breast tissue. It is the most common cancer among women worldwide, and can also occur in men.</p>
+      </section>
+
+      <section>
+        <h2><i>Statistics on Breast Cancer Cases</i></h2>
+        <p>According to the American Cancer Society, in 2021:</p>
+        <ul>
+          <li>An estimated 281,550 new cases of invasive breast cancer will be diagnosed in women in the US.</li>
+          <li>41,760 women will die from breast cancer in the US.</li>
+          <li>About 1 in 8 women in the US will develop invasive breast cancer during their lifetime.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><i>Classification into Malignant and Benign</i></h2>
+        <p>Breast cancer can be classified into two types: malignant and benign.</p>
+        <ul>
+          <li>Malignant breast cancer means that the cancerous cells can invade nearby tissues and spread to other parts of the body.</li>
+          <li>Benign breast cancer means that the cancerous cells do not invade nearby tissues or spread to other parts of the body.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><i>Summary</i></h2>
+        <p>Breast cancer is a serious disease that affects many women worldwide. By understanding the statistics and classifications of breast cancer, we can work towards developing effective methods for prevention, early detection, and treatment.</p>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
+
