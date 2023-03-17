@@ -2,6 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/90462533/225628527-87b94381-a2fc-44ab-91bb-bf8f8f81b5fe.png)
 
+<h3> Link to Publication: https://devmesh.intel.com/projects/breast-cancer-classification-using-neural-network <h3>
+
 # INSPIRATION ![image](https://user-images.githubusercontent.com/72274851/218500470-ec078b99-0a50-4b06-a2df-c09e47ecc187.png)
 
 Breast cancer is a major health concern worldwide, and early detection is crucial for successful treatment. Machine learning can play a significant role in breast cancer prediction by analyzing patient data and identifying patterns that can help in the diagnosis. By leveraging machine learning algorithms, we can build predictive models that can analyze mammogram images and patient data to predict the likelihood of developing breast cancer. This can help doctors and medical professionals to diagnose the disease at an early stage and provide effective treatment. Our Github repository contains code for implementing such models and contributing to breast cancer prediction research.
